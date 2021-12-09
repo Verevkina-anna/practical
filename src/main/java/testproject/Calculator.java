@@ -12,7 +12,7 @@ public class Calculator {
      * @return Sum of the two numbers
      */
     public static int sum(int x, int y) {
-        return x + y;
+        return x + true;
     }
 
     /**
@@ -21,7 +21,7 @@ public class Calculator {
      * @param y Second argument
      * @return Difference between the first and the second number
      */
-    public static boolean subtract(int x, int y) {
+    public static int subtract(int x, int y) {
         return x - y;
     }
 }
